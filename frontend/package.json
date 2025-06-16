@@ -1,6 +1,9 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "emergent-app",
+  "version": "1.0.0",
+  "description": "Emergent.sh Desktop App - Build applications with natural language",
+  "author": "Emergent Labs",
+  "main": "main.js",
   "private": true,
   "dependencies": {
     "axios": "^1.8.4",
@@ -14,7 +17,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "build-electron": "yarn build && electron .",
+    "dist": "yarn build && electron-builder",
+    "dist-all": "yarn build && electron-builder --mac --win --linux",
+    "pack": "electron-builder --dir"
   },
   "browserslist": {
     "production": [
