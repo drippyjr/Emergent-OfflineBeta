@@ -1,0 +1,38 @@
+yarn run v1.22.22
+$ yarn build && electron-builder --linux
+$ react-scripts build
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled successfully.
+
+File sizes after gzip:
+
+  60.07 kB  build/static/js/main.7cc2d45e.js
+  3.51 kB   build/static/css/main.aac6c111.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  yarn global add serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+  • electron-builder  version=26.0.12 os=6.6.72+
+  • loaded configuration  file=package.json ("build" field)
+  • public/electron.js not found. Please see https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3
+  • loaded parent configuration  preset=react-cra
+  • executing @electron/rebuild  electronVersion=36.4.0 arch=x64 buildFromSource=false appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=linux arch=x64 electron=36.4.0 appOutDir=dist/linux-unpacked
