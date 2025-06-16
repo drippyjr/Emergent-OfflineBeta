@@ -1,6 +1,7 @@
-Main Distribution File:
+**Main Distribution File:
+**
 
-emergent-desktop-windows.tar.gz
+emergent-desktop-windows.tar.gz - https://tinyurl.com/Emergent-dl
 (403 MB) - Complete Windows package
 🚀 Three Easy Ways to Run on Windows:
 Method 1: Instant Launch (Recommended)
